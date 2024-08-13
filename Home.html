@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>swiftPortal</title>
+    <style>
+        body {
+            background-image: linear-gradient(to right, rgba(10, 3, 36, 0.9), rgb(3, 5, 25));
+            background-color: black;
+            font-family: sans-serif;
+            color: white;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: xx-large;
+            margin: 20px 0;
+        }
+
+        hr {
+            width: 80%;
+            border: 1px solid white;
+            margin: 20px 0; /* Space around the horizontal rule */
+        }
+
+        .product-container {
+            width: 500px;
+            height: 500px;
+            position: relative;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+            margin-top: 20px; /* Space between horizontal rule and product container */
+        }
+
+        .product-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .product-overlay {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+            text-align: center;
+            color: white;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .product-name {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .product-button {
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 5px;
+            background-color: #111111;
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+            display: inline-block;
+        } 
+        
+    </style>
+</head>
+<body>
+    <h1>swiftPortal</h1>
+    <hr>
+    <div class="product-container">
+        <img src="Images/swiftChecker (3).png" alt="Product Image" class="product-image">
+        <div class="product-overlay">
+            <div class="product-name">swiftChecker</div>
+            <a href="https://www.roblox.com/game-pass/845533132/swiftChecker" class="product-button">Buy - 5 R$ </a>
+        </div>
+    </div>
+</body>
+</html>
